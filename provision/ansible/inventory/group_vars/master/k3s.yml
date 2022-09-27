@@ -14,6 +14,9 @@ k3s_server:
   # Disable Docker - this will use the default containerd CRI
   docker: false
   flannel-backend: "none" # This needs to be in quotes
+  # https://github.com/k3s-io/k3s/issues/5835
+  # https://github.com/k3s-io/k3s/issues/5633
+  egress-selector-mode: disabled
   disable:
     # Disable flannel - replaced with Calico
     - flannel
