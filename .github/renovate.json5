@@ -1,5 +1,9 @@
 {
   enabled: true,
+  ignorePaths: [
+    "**/velero/**",
+    "**/cloudflare-ddns/**"
+    ],
   semanticCommits: 'enabled',
   dependencyDashboard: true,
   dependencyDashboardTitle: 'Renovate Dashboard 🤖',
