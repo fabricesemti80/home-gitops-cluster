@@ -5,5 +5,4 @@ resources:
   - echo-server
   - hajimari
   - minio
-  # - postgres
   - redis
