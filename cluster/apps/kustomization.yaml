@@ -11,3 +11,4 @@ resources:
   # - development
   - security
   - velero
+  - monitoring
