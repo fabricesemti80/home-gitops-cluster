@@ -76,9 +76,9 @@ spec:
         requests:
           memory: 200Mi
           cpu: 15m
-        limits:
-          memory: 3000Mi
-          cpu: null
+        # limits:
+        #   memory: 3000Mi
+        #   cpu: null
     schedules:
       daily-backup:
         schedule: "0 6 * * *"
