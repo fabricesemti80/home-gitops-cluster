@@ -10,7 +10,7 @@ spec:
   chart:
     spec:
       chart: goldilocks
-      version: 6.2.0
+      version: 6.3.0
       sourceRef:
         kind: HelmRepository
         name: fairwinds
@@ -22,8 +22,7 @@ spec:
       # vpa.enabled -- If true, the vpa will be installed as a sub-chart
       enabled: true
       updater:
-        enabled:
-          true
+        enabled: true
     controller:
       # controller.enabled -- Whether or not to install the controller deployment
       enabled: true
